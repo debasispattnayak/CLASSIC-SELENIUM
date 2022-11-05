@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-06T16:15:52 IST" name="Default suite" finished-at="2022-09-06T16:16:14 IST" duration-ms="22124">
+    <groups>
+    </groups>
+    <test started-at="2022-09-06T16:15:52 IST" name="Default test" finished-at="2022-09-06T16:16:14 IST" duration-ms="22124">
+      <class name="dataprovider.FacebookLogin">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataprovider.FacebookLogin@79da8dc5]" started-at="2022-09-06T16:15:52 IST" name="Login" data-provider="data" finished-at="2022-09-06T16:16:00 IST" duration-ms="8334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataprovider.FacebookLogin@79da8dc5]" started-at="2022-09-06T16:16:00 IST" name="Login" data-provider="data" finished-at="2022-09-06T16:16:07 IST" duration-ms="6666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dadafaf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataprovider.FacebookLogin@79da8dc5]" started-at="2022-09-06T16:16:07 IST" name="Login" data-provider="data" finished-at="2022-09-06T16:16:14 IST" duration-ms="7061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[afbsjkbkfabfj^&***266]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rajath]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- dataprovider.FacebookLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
